@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "transformed-data-navigational-database/{name}",
+      "connection": "s12023_storage_key"
+    }
+  ]
+}
